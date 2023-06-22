@@ -1,0 +1,70 @@
+body { background-color: #f5f5f5;}
+html { scroll-behavior: smooth;}
+/*
+body.offcanvas-active { overflow: hidden;}
+.offcanvas-header { display: none;}
+
+.screen-darken {
+    height: 100%;
+    width: 0%;
+    z-index: 30;
+    position: fixed;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(34, 34, 34, 0.6);
+    transition: opacity .2s linear,
+    visibility .2s, width 2s ease-in;
+}
+.screen-darken.active {
+    z-index: 10;
+    transition: opacity .3s ease, width 0s;
+    opacity: 1;
+    width: 100%;
+    visibility: visible;
+}*/
+
+.customC { background-color: #526475;}
+.slika {
+    background: url("imgs/IG_Logo.png");
+    width: 50px;
+    height: 50px;
+    transition: background 0.25s ease-in-out;
+    border-style: none;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 1vw;
+}
+.slika:hover { background: url("imgs/IG_LogoR.png");}
+.slikaFB {
+    background: url("imgs/FB_Logo1.png");
+    width: 50px;
+    height: 50px;
+    transition: background 0.25s ease-in-out;
+    border-style: none;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 1vw;
+}
+.slikaFB:hover { background: url("imgs/FB_Logo2.png");}
+#CopyR { font-size: 0.75vw; text-align: center; background-color: #6B90B3;}
+
+/*MOBILE VIEW
+@media all and (max-width: 991px) {
+    .offcanvas-header { display: block;}
+
+    .mobile-offcanvas {
+        visibility: visible;
+        display: block;
+        position: fixed; top: 0; right: 0;
+        height: 100%; width: 33%;
+        z-index: 1200;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        transition: visibility .3s ease-in-out;
+    }
+
+    .mobile-offcanvas.show { visibility: visible;}
+    .mobile-offcanvas .container, .mobile-offcanvas .container-fluid { display: block;}
+} */
